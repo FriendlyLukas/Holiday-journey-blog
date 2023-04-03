@@ -1,0 +1,9 @@
+.przycisk{
+    box-sizing: inherit;
+    border: 2px 4px 6px 8px solid;
+    border-radius: 5%;
+    margin: 40px auto 40px auto;
+}
+.przycisk:hover{
+    background-color: crimson;
+}
