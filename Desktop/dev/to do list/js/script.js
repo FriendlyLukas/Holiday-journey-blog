@@ -18,13 +18,18 @@
         for (const task of tasks) {
             htmlString += `
                 <li 
-                    ${task.done ? " style=\"text-decoration: line-through\"" : ""}>
+                    ${task.done ? " style=\"text-decoration: line-through\"" : ""}
+                >
+                    <button class="js-remove">usuń</button>
                     ${task.content}
                 </li>
             `;
         }
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
+
+        const removeButton = document.querySelector(".js-remove");
+        console.log(remove);
 
         };
 
