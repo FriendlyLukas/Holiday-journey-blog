@@ -33,7 +33,7 @@
                 content: newTaskContent,
             });
 
-            render();
+            render(); 
         }
 
         const onFormSubmit = (event) => {
